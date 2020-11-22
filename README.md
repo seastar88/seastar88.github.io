@@ -1,6 +1,6 @@
 # Marissa Grunes
 
-Writer about all things Antarctica. 
+Writer about all things Antarctica.
 
 ## Articles
 * [The Power of a South Pole Sunrise After Six Months of Darkness](https://www.atlasobscura.com/articles/south-pole-sunrise-summer-antarctica) in _Atlas Obscura_ (2020)
