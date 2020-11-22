@@ -1,7 +1,5 @@
 ---
 layout: splash
-classes:
-  - wide
 ---
 
 # Marissa Grunes
