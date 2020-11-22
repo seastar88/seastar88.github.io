@@ -1,10 +1,3 @@
----
-layout: splash
-classes:
-  - landing
-  - dark-theme
----
-
 # Marissa Grunes
 
 Writer about all things Antarctica. 
