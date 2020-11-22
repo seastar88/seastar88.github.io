@@ -7,10 +7,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-body {
-  background-color: orange;
-}
-
-h1 {
+h1.page-title {
   display: none;
 }
