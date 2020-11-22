@@ -7,13 +7,13 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-title: Marissa Grunes' Website
+title: Marissa Grunes
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
+twitter_username: gone_incognita
 github_username: seastar88
 minimal_mistakes_skin: default
 search: true
@@ -31,9 +31,9 @@ include:
   - _pages
 
 author:
-  name   : "Marissa Grunes"
+  name   : "Incognita: A Portrait of Antarctica"
   avatar : "/assets/img/marissa.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "My current book project is a work of narrative nonfiction about the Antarctic, telling the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
