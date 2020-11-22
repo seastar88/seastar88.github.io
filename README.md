@@ -1,5 +1,8 @@
 ---
 layout: splash
+classes:
+  - landing
+  - dark-theme
 ---
 
 # Marissa Grunes
