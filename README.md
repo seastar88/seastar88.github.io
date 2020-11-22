@@ -1,5 +1,8 @@
 ---
 layout: single
+title: Title of Your Post
+canonical_url: "https://yoursite.com/custom-canonical-url"
+
 classes:
   - wide
 ---
