@@ -3,8 +3,8 @@ Writer on all things Antarctica.
 
 ![Weddell Seal courtesy of Beth Simmons](/assets/images/seal_small.jpg)
 
-## Incognita: A Portrait of Antarctica
-My current book project is a work of narrative nonfiction about the Antarctic. Incognita: A Portrait of Antarctica tells the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent.
+## _Incognita: A Portrait of Antarctica_
+My current book project is a work of narrative nonfiction about the Antarctic. _Incognita: A Portrait of Antarctica_ tells the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent.
 
 ## Articles
 * [The Power of a South Pole Sunrise After Six Months of Darkness](https://www.atlasobscura.com/articles/south-pole-sunrise-summer-antarctica) in _Atlas Obscura_ (2020)
