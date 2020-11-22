@@ -1,6 +1,8 @@
 # Gone Incognita!
 Writer on all things Antarctica.
 
+(/images/seal.jpg)
+
 ## Incognita: A Portrait of Antarctica
 My current book project is a work of narrative nonfiction about the Antarctic. Incognita: A Portrait of Antarctica tells the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent.
 
