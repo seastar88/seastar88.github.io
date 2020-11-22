@@ -32,7 +32,7 @@ include:
 
 author:
   name   : "Marissa Grunes"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/img/marissa.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Email"
