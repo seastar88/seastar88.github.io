@@ -35,17 +35,21 @@ author:
   avatar : "/assets/img/marissa.jpg"
   bio    : "My current book project is a work of narrative nonfiction about the Antarctic, telling the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent."
   links:
-    - icon: "fas fa-fw fa-envelope"
+    - label: ""
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:gone.incognita@gmail.com"
-    - icon: "fab fa-fw fa-twitter-square"
+    - label: ""
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Gone_Incognita"
     
 
 footer:
   links:
-    - icon: "fas fa-fw fa-envelope"
+    - label: ""
+      icon: "fas fa-fw fa-envelope"
       url: "mailto:gone.incognita@gmail.com"
-    - icon: "fab fa-fw fa-twitter-square"
+    - label: ""
+      icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/Gone_Incognita"
     
 
