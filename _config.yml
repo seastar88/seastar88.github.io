@@ -33,7 +33,7 @@ include:
 author:
   name   : "Incognita: A Portrait of Antarctica"
   avatar : "/assets/img/marissa.jpg"
-  bio    : "My current book project is a work of narrative nonfiction about the Antarctic, telling the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent."
+  bio    : "My current book project is a work of narrative nonfiction about the Antarctic. Incognita: A Portrait of Antarctica tells the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent."
   links:
     - label: ""
       icon: "fas fa-fw fa-envelope"
