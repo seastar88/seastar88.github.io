@@ -1,10 +1,3 @@
----
-layout: single
-classes:
-  - wide
-  - dark-theme
----
-
 # Marissa Grunes
 
 Writer about all things Antarctica. 
