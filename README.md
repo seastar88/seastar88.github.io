@@ -6,6 +6,8 @@ Writer on all things Antarctica.
 ## _Incognita: A Portrait of Antarctica_
 My current book project is a work of narrative nonfiction about the Antarctic. _Incognita: A Portrait of Antarctica_ tells the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent. The project is currently being supported by a postdoctoral <a href="https://environment.harvard.edu/about/fellows/marissa-elizabeth-grunes" target="_blank">Environmental Fellowship</a> through Harvard's Center for the Environment.
 
+Subscribe <a href="http://eepurl.com/hnk5d5" target="blank">here</a> to receive intermittent email updates about _Incognita_.
+
 ## Articles
 * <a href="https://www.atlasobscura.com/articles/south-pole-sunrise-summer-antarctica" target="_blank">The Power of a South Pole Sunrise After Six Months of Darkness</a> in <i>Atlas Obscura</i> (2020)
 * <a href="http://nautil.us/issue/92/frontiers/what-you-can-learn-from-living-in-antarctica" target="_blank">What You Can Learn From Living in Antarctica: Q&A with Joe Pettit</a> in <i>Nautilus</i> (2020) 
