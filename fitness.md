@@ -3,6 +3,7 @@
 Here to help you stay healthy and fit during lockdown!
 
 ## 🏋 HIIT + Full-Body Strength on Saturdays @ 2pm ET
+
 ## 🏋 Abs + Arms on Wednesdays @ 3:30pm ET
 
 All classes are 30 minutes long and totally free.
