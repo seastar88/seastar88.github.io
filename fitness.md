@@ -10,7 +10,7 @@ Here to help you stay healthy and fit during lockdown!
             Wednesdays @ 3:30pm ET
             Dumbbells
      
-All classes are 30 minutes long. Monthly subscription: $7 / month.
+All classes are 30 minutes long. Subscription: $7 / month.
 
 _First class is free!_ Questions? Email <a href="mailto: gone.incognita@gmail.com">Marissa here</a>!
 
