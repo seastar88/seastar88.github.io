@@ -5,7 +5,6 @@ Here to help you stay healthy and fit during lockdown!
 ## 🏋 HIIT + Full-Body Strength 
       Saturdays @ 2pm ET
       No equipment required
-
 ## 🏋 Abs + Arms
       Wednesdays @ 3:30pm ET
       Dumbbells
