@@ -10,7 +10,7 @@ Here to help you stay healthy and fit during lockdown!
            🔒 Wednesdays @ 3:30pm ET
            🔑 Dumbbells
      
-All classes are 30 minutes long. Subscription: $7 / month.
+All classes are 30 minutes long. Subscription by sliding scale: $7 / month.
 
 _First class is free!_ Questions? Check out the <a href="https://www.facebook.com/Lock-It-Down-Virtual-Fitness-110209514475582" target="_blank">Facebook page</a> or <a href="mailto: gone.incognita@gmail.com">email Marissa</a>!
 
