@@ -9,7 +9,7 @@ My current book project is a work of narrative nonfiction about the Antarctic. _
 Subscribe <a href="http://eepurl.com/hnk5d5" target="blank">here</a> to receive intermittent email updates about _Incognita_.
 
 ## Articles and Media
-* <a href="https://www.environmentandsociety.org/mml/asle-ecocast-ice-your-veins-antarctica-anthropocene-marissa-grunes" target="_blank">Ice in Your Veins: Antarctica and the Anthropocene" on <i>EcoCast: The Official Podcast of the American Association for Literature and the Environment</i> (2021)
+* <a href="https://www.environmentandsociety.org/mml/asle-ecocast-ice-your-veins-antarctica-anthropocene-marissa-grunes" target="_blank">Ice in Your Veins: Antarctica and the Anthropocene"</a> on <i>EcoCast: The Official Podcast of the American Association for Literature and the Environment</i> (2021)
 * <a href="https://www.atlasobscura.com/articles/south-pole-sunrise-summer-antarctica" target="_blank">The Power of a South Pole Sunrise After Six Months of Darkness</a> in <i>Atlas Obscura</i> (2020)
 * <a href="http://nautil.us/issue/92/frontiers/what-you-can-learn-from-living-in-antarctica" target="_blank">What You Can Learn From Living in Antarctica: Q&A with Joe Pettit</a> in <i>Nautilus</i> (2020) 
 * <a href="http://nautil.us/issue/90/something-green/the-greening-of-antarctica" target="_blank">The Greening of Antarctica: Q&A with Jim McClintock</a> in _Nautilus_ (2020)
