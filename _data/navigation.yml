@@ -1,5 +1,13 @@
 main:
   - title: "Incognita"
     url: /incognita/
+  - title: "Antarctica"
+    url: /antarctica/
+  - title: "Science Writing"
+     url: /science/
+  - title: "Arts & Culture"
+      url: /arts/
   - title: "Academic publications"
     url: /publications/
+  - title: "Contact"
+     url: /contact/
