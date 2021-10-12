@@ -1,0 +1,8 @@
+Purpose: author page
+Model: table ABOUT, table LINKS, table BOOK, table CATEGORIES, join table LINK_CATEGORIES
+View: multi-page hierarchy. header tab navigation, body section, footer.
+Site map:
+    ABOUT (landing)
+    ANTARCTICA (book)
+    SCIENCE WRITING
+    ARTS AND CULTURE
