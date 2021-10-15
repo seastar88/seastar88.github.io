@@ -10,6 +10,42 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <title>Gone Incognita!</title>
         <style>
+            @media only screen and (max-width: 400px) {
+                #header {
+                    background-image: url("static/images/weddell_medium.jpg");
+                    background-position: -100px -150px;
+                }
+            }
+
+            @media only screen and (min-width: 400px) {
+                #header {
+                    background-image: url("static/images/weddell_medium.jpg");
+                    background-position: -100px -55px;
+                }
+            }
+
+            @media only screen and (min-width: 600px) {
+                #header {
+                    background-image: url("static/images/weddell_medium.jpg");
+                    background-position: center center;
+                }
+            }
+
+            @media only screen and (min-width: 800px) {
+                #header {
+                    background-image: url("static/images/weddell_large.jpg");
+                    /*background-position: -200px -700px;*/
+                    background-size: cover;
+                }
+            }
+
+            @media only screen and (min-width: 1000px) {
+                #header {
+                    background-image: url("static/images/weddell_large.jpg");
+                    background-position: center 75%;
+                }
+            }
+
             * {
                 box-sizing: border-box;
                 margin: 0;
@@ -34,42 +70,8 @@
                 position: relative;
                 width: 100%;
                 height: 50%;
-                background-image: url("static/images/weddell_large.jpg");
+                background-repeat: no-repeat;
             }
-            /* Extra small devices (phones, 600px and down) */
-            @media only screen and (max-width: 600px) {
-                #header {
-                    background-position: center;
-                }
-            }
-
-            /* Small devices (portrait tablets and large phones, 600px and up) */
-            @media only screen and (min-width: 600px) {
-                #header {
-                    background-position: center;
-                }
-            }
-
-            /* Medium devices (landscape tablets, 768px and up) */
-            @media only screen and (min-width: 768px) {
-                #header {
-                    background-position: center;
-                }
-            }
-
-            /* Large devices (laptops/desktops, 992px and up) */
-            @media only screen and (min-width: 992px) {
-                #header {
-                    background-position: center;
-                }
-            }
-
-            /* Extra large devices (large laptops and desktops, 1200px and up) */
-            @media only screen and (min-width: 1200px) {
-                #header {
-                    background-position: center;
-                }
-            } 
             #main {
                 position: absolute;
                 top: 50%;
@@ -82,48 +84,75 @@
                 margin-top: 100px;
                 width: 100%;
             }
+            .bg-blue {
+                background-color: #CCDDEE;
+            }
+            .spacerColumn {
+                background-color: aliceblue;
+            }
+            .contentColumn {
+                border: 1pt solid lightgray;
+            }
+            nav a {
+                color: 1A191B;
+                font-weight: bold;
+                letter-spacing: .2em;
+            }
         </style>
     </head>
     <body>
         <div id="outerContainer">
             <div id="header"></div>
-            <div id="main" class="container">
-                <div class="col-sm-0 col-md-3"></div>
-                <div class="col">
-                    <nav class="row navbar navbar-expand-md navbar-light bg-light sticky-top" id="navbar">
-                        <div class="container-fluid">
-                            <a class="nav-brand">Gone Incognita!</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                                    <li class="nav-item pl-4"><a href="#" class="nav-link">The Author</a></li>
-                                    <li class="nav-item pl-4"><a href="#" class="nav-link">Antarctica</a></li>
-                                    <li class="nav-item pl-4"><a href="#" class="nav-link">Science Writing</a></li>
-                                    <li class="nav-item pl-4"><a href="#" class="nav-link">Arts & Culture</a></li>
-                                </ul>
-                            </div>
+            <div id="main" class="container-fluid">
+                <div class="container-fluid p-0">
+
+                    <!-- header row -->
+                    <div class="row">
+                        <div class="col-sm-0 col-md-3 bg-blue"><!-- left spacer column --></div>
+                        <div class="col">
+                            <nav class="row navbar navbar-expand-lg navbar-dark bg-blue sticky-top" id="navbar">
+                                <div class="container-fluid">
+                                    <a class="nav-brand"><strong>Gone Incognita!</strong></a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                                            <li class="nav-item pl-4"><a href="#" class="nav-link">The Author</a></li>
+                                            <li class="nav-item pl-4"><a href="#" class="nav-link">Antarctica</a></li>
+                                            <li class="nav-item pl-4"><a href="#" class="nav-link">Science Writing</a></li>
+                                            <li class="nav-item pl-4"><a href="#" class="nav-link">Arts & Culture</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
                         </div>
-                    </nav>
-                    <section class="row">
-                        <h1>About the Author</h1>
-                        <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
-                        <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
-                        <p>She holds a BA from Yale University in Comparative Literature (with certificates in Spanish and German).</p>
-                        
-                        <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
-                        <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
-                        
-                        <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
-                        <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
-                        
-                        <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
-                        <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
-                        
-                    </section>
+                        <div class="col-sm-0 col-md-3 bg-blue"><!-- right spacer column --></div>
+                    </div>
+
+                    <!-- content row -->
+                    <div class="row">
+                        <div class="col-sm-0 col-md-3 spacerColumn"><!-- left spacer column --></div>
+                        <div class="col contentColumn">
+                            <h1>About the Author</h1>
+                            <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
+                            <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
+                            <p>She holds a BA from Yale University in Comparative Literature (with certificates in Spanish and German).</p>
+                            
+                            <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
+                            <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
+                            
+                            <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
+                            <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
+                            
+                            <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
+                            <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
+                            
+                        </div>
+                        <div class="col-sm-0 col-md-3 spacerColumn"><!-- right spacer column --></div>
+                    </div>
+
                 </div>
-                <div class="col-sm-0 col-md-3"></div>
             </div>
        </div>
     </body>
