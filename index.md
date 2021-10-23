@@ -14,6 +14,7 @@ Subscribe <a href="http://eepurl.com/hnk5d5" target="blank">here</a> to receive 
 
 ## Articles and Media
 * <a href="https://theconversation.com/ancient-groundwater-why-the-water-youre-drinking-may-be-thousands-of-years-old-167982" target="_blank">Ancient groundwater: Why the water you’re drinking may be thousands of years old</a> in <i>The Conversation</i> (2021)
+* <a href="https://www.connecticutmag.com/arts/the-mother-of-all-voices-lili-chookasians-stunning-and-little-remembered-opera-career/article_d3a49924-e89e-11eb-a3d4-afa67ccb92a3.html" target="_blank">The Mother of All Voices: Lili Chookasian's stunning and little-remembered opera career</a> in <i>Connecticut Magazine</i> (2021)
 * <a href="https://www.environmentandsociety.org/mml/asle-ecocast-ice-your-veins-antarctica-anthropocene-marissa-grunes" target="_blank">Ice in Your Veins: Antarctica and the Anthropocene"</a> on <i>EcoCast: The Official Podcast of the American Association for Literature and the Environment</i> (2021)
 * <a href="https://www.atlasobscura.com/articles/south-pole-sunrise-summer-antarctica" target="_blank">The Power of a South Pole Sunrise After Six Months of Darkness</a> in <i>Atlas Obscura</i> (2020)
 * <a href="http://nautil.us/issue/92/frontiers/what-you-can-learn-from-living-in-antarctica" target="_blank">What You Can Learn From Living in Antarctica: Q&A with Joe Pettit</a> in <i>Nautilus</i> (2020) 
