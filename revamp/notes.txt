@@ -1,0 +1,27 @@
+Purpose: author page
+Model: table ABOUT, table LINKS, table BOOK, table CATEGORIES, join table LINK_CATEGORIES
+View: multi-page hierarchy. header tab navigation, body section, footer.
+Site map:
+    ABOUT (landing)
+    ANTARCTICA (book)
+    SCIENCE WRITING
+    ARTS AND CULTURE
+
+
+-   Currently attempting to automatically align the bottom of the header image to the bottom of the screen, offset a certain amount to allow for the navigation bar at the bottom.
+    This doesn't render: the vertical size of the image, being larger than the height of the viewport, stretches the body to account for it. So the header image does indeed align
+    to the bottom of the document, but the document is resized to fit the entire image; whereas, I want the image to overflow "above" the document; basically to crop off the top
+    of the image so that the bottom of the image is always aligned to 100px above the bottom of the default screen size, and whatever doesn't fit simply disappears off the top.
+
+    only way of doing this i've found so far is to gather the screen dimensions first before any content is loaded, that way it is the default viewport size. this is pretty straight-
+    forward to do. create an element that is 100% width and height, then measure its dimensions. using that, position the image 100px less the screen height. this works! however,
+    i hate it; every bit of content would have to be loaded programmatically, with javascript. running with that idea, i decided it might provide an easy way to factor out the content
+    to separate files for easier editing, but it just didn't convince me that generating an entire website programmatically was worth it. it would still be accessible since i'd be
+    adding to the DOM, but it just seems unnecessary for this scope of a project.
+
+    the crux of the problem: if the content is written into the HTML, the document resizes to fit it all. positioning the way i want at that point is impossible. even setting the style
+    top property to a negative value doesn't work, because it is offset after the initial document size has been calculated.
+
+-   wild idea: have a top navbar as normal, with the main body background being the header image of the Weddell seal. but each page would be bordered by the outline of an iceberg,
+    with a section of that iceberg as a repeating tile to accommodate variable heights. actually this would work well on a mobile screen, with the entire content being a vertical
+    accordian menu.
