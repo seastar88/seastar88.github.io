@@ -25,3 +25,7 @@ Site map:
 -   wild idea: have a top navbar as normal, with the main body background being the header image of the Weddell seal. but each page would be bordered by the outline of an iceberg,
     with a section of that iceberg as a repeating tile to accommodate variable heights. actually this would work well on a mobile screen, with the entire content being a vertical
     accordian menu.
+
+10/24
+    new idea: full-page landing banner (weddell seal), menu over image (no solid background) top right. 
+    link behavior - two options: first, heading (page title) over center of image, scroll down for content; second, seal shrinks to banner/header at top of content column.
