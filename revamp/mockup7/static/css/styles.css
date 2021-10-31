@@ -12,6 +12,17 @@ html, body {
     min-height: 100%;
 }
 
+#shadowContainer {
+    position: fixed;
+    width: 100%;
+    height: 1px;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    box-shadow: 0px 0px 50px 50px #fff;
+    z-index: 10;
+}
+
 #bgContainer, #opacityContainer {
     position: fixed;
     width: 100%;
@@ -26,6 +37,13 @@ html, body {
 
 #opacityContainer {
     background-color: rgba(255, 255, 255, 0.0);
+}
+
+#titleContainer {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50vh;
 }
 
 @media (max-width: 400px) {
@@ -95,17 +113,6 @@ html, body {
     flex-grow: 1;
 }
 
-.menu-text-shadow {
-    color: white;
-    font-weight: bold;
-    text-shadow: 
-        0px 0px 10px #000,
-        -1px -1px 1px #000,
-        1px -1px 1px #000,
-        1px 1px 1px #000,
-        -1px 1px 1px #000;
-    letter-spacing: 1px;
-}
 
 #contentContainer, #forceScroll {
     position: absolute;
@@ -126,5 +133,15 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
+}
+
+.title-shadow {
+    text-shadow: 
+        0px 0px 30px #fff,
+        -1px -1px 10px #fff,
+        1px -1px 10px #fff,
+        1px 1px 10px #fff,
+        -1px 1px 10px #fff;
+    letter-spacing: 1px;
 }
