@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>Gone Incognita!</title>
+    </head>
+    <body>
+        <div id="bgContainer"></div>
+        <div id="opacityContainer"></div>
+        <header id="headerContainer" class="px-5 py-2">
+            <div id="brand"><h3><a href="index.html" class="text-dark">Marissa Grunes</a></h3></div>
+            <div id="headerSpacerColumn"></div>
+            <nav class="navbar navbar-expand-md navbar-light p-0 m-0" id="navbar">
+                <div class="container-fluid p-0 m-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item pl-5"><a href="about.html" class="nav-link h4 text-dark">About Me</a></li>
+                            <li class="nav-item pl-5"><a href="portfolio.html" class="nav-link h4 text-dark">Portfolio</a></li>
+                            <li class="nav-item pl-5"><a href="incognita.html" class="nav-link h4 text-dark">Incognita</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="contentContainer" class="container-fluid">
+            <div class="row h-100">
+                <div class="col-sm-0 col-md-1 col-xl-3"></div>
+                <div class="col p-5">
+                    <blockquote class="blockquote">
+                        <h1 class="pb-4">Incognita: A Portrait of Antarctica</h1>
+                        <p>My current book project is a work of narrative nonfiction about the Antarctic. <em>Incognita: A Portrait of Antarctica</em> tells the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent. The project has been supported by a postdoctoral <a href="https://environment.harvard.edu/people/marissa-elizabeth-grunes">Environmental Fellowship</a> through Harvard’s Center for the Environment and by the<a href="https://www.aauw.org/"> American Association of University Women</a>.</p>
+                        <p>Subscribe <a href="http://eepurl.com/hnk5d5">here</a> to receive intermittent email updates about <em>Incognita</em>.</p>
+                    </blockquote>
+                </div>
+                <div class="col-sm-0 col-md-1 col-xl-3"></div>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        // when scrolled all the way down, bg opacity at X%
+        const MIN_OPACITY = .90;
+        const BG_ELEMENT = document.getElementById("opacityContainer");
+        window.addEventListener("scroll", e => {
+            let o = Math.min(window.pageYOffset/window.innerHeight, MIN_OPACITY);
+            BG_ELEMENT.style.backgroundColor = `rgba(255, 255, 255, ${o}`;
+        })
+    </script>
+</html>

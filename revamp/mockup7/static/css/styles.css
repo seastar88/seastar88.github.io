@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#bgContainer, #opacityContainer {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    background-attachment: fixed;
+}
+
+#opacityContainer {
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+@media (max-width: 400px) {
+    #bgContainer {
+        background-image: url("../images/weddell_small.jpg");
+        background-size: cover;
+        background-position: -75px;    
+    }
+}
+
+@media (min-width: 400px) {
+    #bgContainer {
+        background-image: url("../images/weddell_medium.jpg");
+        background-size: cover;
+        background-position: -150px -200px;
+    }
+}
+
+@media (min-width: 600px) {
+    #bgContainer {
+        background-image: url("../images/weddell_medium.jpg");
+        background-size: cover;
+    }
+}
+
+@media (min-width: 768px) {
+    #bgContainer {
+        background-image: url("../images/weddell_large.jpg");
+        background-size: cover;
+        background-position: left bottom;
+    }
+}
+
+@media (min-width: 992px) {
+    #bgContainer {
+        background-image: url("../images/weddell_large.jpg");
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+    #bgContainer {
+        background-image: url("../images/weddell_large.jpg");
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1900px) {
+    #bgContainer {
+        background-image: url("../images/weddell_large.jpg");
+        background-position: center -150px;
+    }
+}
+
+#headerContainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 9999;
+}
+
+#headerSpacerColumn {
+    flex-grow: 1;
+}
+
+.menu-text-shadow {
+    color: white;
+    font-weight: bold;
+    text-shadow: 
+        0px 0px 10px #000,
+        -1px -1px 1px #000,
+        1px -1px 1px #000,
+        1px 1px 1px #000,
+        -1px 1px 1px #000;
+    letter-spacing: 1px;
+}
+
+#contentContainer, #forceScroll {
+    position: absolute;
+    top: 100vh;
+}
+
+#contentContainer {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+#forceScroll {
+    min-height: 10px;
+}
+
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
