@@ -29,3 +29,75 @@ Site map:
 10/24
     new idea: full-page landing banner (weddell seal), menu over image (no solid background) top right. 
     link behavior - two options: first, heading (page title) over center of image, scroll down for content; second, seal shrinks to banner/header at top of content column.
+
+10/31
+    for C&P purposes:
+    
+    INCOGNITA.HTML
+    <blockquote class="blockquote">
+        <p>My current book project is a work of narrative nonfiction about the Antarctic. <em>Incognita: A Portrait of Antarctica</em> tells the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent. The project has been supported by a postdoctoral <a href="https://environment.harvard.edu/people/marissa-elizabeth-grunes">Environmental Fellowship</a> through Harvard’s Center for the Environment and by the<a href="https://www.aauw.org/"> American Association of University Women</a>.</p>
+        <p>Subscribe <a href="http://eepurl.com/hnk5d5">here</a> to receive intermittent email updates about <em>Incognita</em>.</p>
+    </blockquote>
+
+    PORTFOLIO.HTML
+    <blockquote class="blockquote">
+        <p>For my academic publications and courses taught, please visit my <a href="https://scholar.harvard.edu/grunes">scholar.edu</a> page.</p>
+        <div class="container-fluid">
+            <div class="row pt-4">
+                <div class="col-4"><h3 class="lead">Antarctica</h3></div>
+                <div class="col-8">
+                    <ul>
+                        <li class="pb-3"><a href="https://www.environmentandsociety.org/mml/asle-ecocast-ice-your-veins-antarctica-anthropocene-marissa-grunes">Ice in Your Veins: Antarctica and the Anthropocene”</a> on EcoCast: The Official Podcast of the American Association for Literature and the Environment (2021)</li>
+                        <li class="pb-3"><a href="https://www.atlasobscura.com/articles/south-pole-sunrise-summer-antarctica">The Power of a South Pole Sunrise After Six Months of Darkness</a> in Atlas Obscura (2020)</li>
+                        <li class="pb-3"><a href="http://nautil.us/issue/92/frontiers/what-you-can-learn-from-living-in-antarctica">What You Can Learn From Living in Antarctica: Q&A with Joe Pettit</a> in Nautilus (2020)</li>
+                        <li class="pb-3"><a href="http://nautil.us/issue/90/something-green/the-greening-of-antarctica">The Greening of Antarctica: Q&A with Jim McClintock</a> in Nautilus (2020)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-4"><h3 class="lead">Science Writing</h3></div>
+                <div class="col-8">
+                    <ul>
+                        <li class="pb-3"><a href="https://theconversation.com/ancient-groundwater-why-the-water-youre-drinking-may-be-thousands-of-years-old-167982">Ancient groundwater: Why the water you’re drinking may be thousands of years old</a> in The Conversation (2021)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-4"><h3 class="lead">Arts & Culture</h3></div>
+                <div class="col-8">
+                    <ul>
+                        <li class="pb-3"><a href="https://www.connecticutmag.com/arts/the-mother-of-all-voices-lili-chookasians-stunning-and-little-remembered-opera-career/article_d3a49924-e89e-11eb-a3d4-afa67ccb92a3.html">The Mother of All Voices: Lili Chookasian’s stunning and little-remembered opera career</a> in Connecticut Magazine (2021)</li>
+                        <li class="pb-3"><a href="https://www.theparisreview.org/blog/2018/02/06/walden-youtube-age/">A Walden for the YouTube Age</a> in The Paris Review Online (2018)</li>
+                        <li class="pb-3"><a href="https://www.theparisreview.org/blog/2017/07/20/masses-of-beautiful-alabaster">Masses of Beautiful Alabaster: The Poetry of Icebergs</a> in The Paris Review Online (2017)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </blockquote>
+
+    ABOUT.HTML:
+    <blockquote class="blockquote">
+        <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
+        <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
+        <p>She holds a BA from Yale University in Comparative Literature (with certificates in Spanish and German).</p>
+    </blockquote>
+
+    INDEX.HTML:
+    <div id="forceScroll" class="container-fluid"></div>
+
+11/4/21
+    mockup7 
+    pros:
+        - dramatic, interesting splash image of seal
+        - minimalist, uncluttered
+    cons:
+        - legibility issues
+        - content "hidden" beneath scroll
+
+    specifically, the text-glow looks trashy. not enough contrast of content over background image (debatable).
+
+    thinking of a return to a three-row layout:
+    - a thin, flat background header with title and navigation
+    - thick splash image of seal
+        - page title appears here with a faded full-width container to provide contrast?
+    - content row, just peaking up above the bottom of the viewport
