@@ -10,11 +10,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         -->
-        <link rel="stylesheet" href="static/css/bootstrap.min.css">
-        <link rel="stylesheet" href="static/css/bootstrap-grid.css">
-        <link rel="stylesheet" href="static/css/bootstrap-reboot.css">
-        <link rel="stylesheet" href="static/css/bootstrap-utilities.css">
-        <link rel="stylesheet" href="static/css/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="../static/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="../static/css/bootstrap-utilities.css">
+        <link rel="stylesheet" href="../static/css/bootstrap.rtl.min.css">
         <title>Gone Incognita!</title>
         <style>
             * {
@@ -174,7 +174,7 @@
         const MIN_OPACITY = 0.5;
         const BG_ELEMENT = document.getElementById("opacityContainer");
         window.addEventListener("scroll", e => {
-            let o = Math.min(window.scrollY/window.innerHeight, MIN_OPACITY);
+            let o = Math.min(window.scrollYoffset/window.innerHeight, MIN_OPACITY);
             BG_ELEMENT.style.backgroundColor = `rgba(255, 255, 255, ${o}`;
             console.log(`BG Opacity: ${o}`);
         })
