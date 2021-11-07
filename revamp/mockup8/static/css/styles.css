@@ -20,6 +20,7 @@ nav {
 header {
     min-height: 75vh;
     max-height: 75vh;
+    background-repeat: no-repeat;
 }
 
 /* FOR TESTING */
@@ -27,6 +28,9 @@ header {
     position: fixed;
     top: 20px;
     left: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: x-small;
     z-index: 9999;
 }
 
@@ -35,7 +39,7 @@ header {
         content: "max-width: 400px";
         background-color: black;
         position: absolute;
-        top: 0px;
+        top: 40px;
         left: 0px;
         color: white;
         padding: 5px;
@@ -52,7 +56,7 @@ header {
         content: "max-width: 400px";
         background-color: black;
         position: absolute;
-        top: 0px;
+        top: 40px;
         left: 0px;
         color: white;
         padding: 5px;
@@ -60,7 +64,7 @@ header {
     header {
         background-image: url("../images/weddell_medium.jpg");
         background-size: cover;
-        background-position: -150px -200px;
+        background-position: -100px center;
     }
 }
 
@@ -69,14 +73,14 @@ header {
         content: "min-width: 600px";
         background-color: black;
         position: absolute;
-        top: 0px;
+        top: 40px;
         left: 0px;
         color: white;
         padding: 5px;
     }
     header {
         background-image: url("../images/weddell_medium.jpg");
-        background-size: cover;
+        background-position: -75px center;
     }
 }
 
@@ -85,7 +89,7 @@ header {
         content: "min-width: 768px";
         background-color: black;
         position: absolute;
-        top: 0px;
+        top: 40px;
         left: 0px;
         color: white;
         padding: 5px;
@@ -102,7 +106,7 @@ header {
         content: "min-width: 992px";
         background-color: black;
         position: absolute;
-        top: 0px;
+        top: 40px;
         left: 0px;
         color: white;
         padding: 5px;
@@ -113,19 +117,19 @@ header {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1544px) {
     #key::after {
-        content: "min-width: 1200px";
+        content: "min-width: 1544px";
         background-color: black;
         position: absolute;
-        top: 0px;
+        top: 40px;
         left: 0px;
         color: white;
         padding: 5px;
     }
     header {
         background-image: url("../images/weddell_large.jpg");
-        background-size: cover;
+        background-position: center -400px;
     }
 }
 
@@ -134,13 +138,13 @@ header {
         content: "min-width: 1900px";
         background-color: black;
         position: absolute;
-        top: 0px;
+        top: 40px;
         left: 0px;
         color: white;
         padding: 5px;
     }
     header {
         background-image: url("../images/weddell_large.jpg");
-        background-position: center -150px;
+        background-position: center -500px;
     }
 }
