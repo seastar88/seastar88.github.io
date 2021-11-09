@@ -9,44 +9,67 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <title>Gone Incognita!</title>
     </head>
-    <body>
-        <div class="container-fluid h-100" id="outerContainer">
-            <nav class="row">
-                <div class="col navbar navbar-expand-lg bg-light navbar-light">
-                    <a class="navbar-brand" href="index.html">Gone Incognita!</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a href="about.html" class="nav-link">About Me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="incognita.html" class="nav-link">Incognita</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="portfolio.html" class="nav-link">Portfolio</a>
-                            </li>
-                        </ul>
-                    </div>
+    <body class="container-fluid h-100" id="outerContainer">
+        
+        <!-- FOR TESTING --><div id="key"></div><!-- FOR TESTING -->
+
+        <!-- navigation bar -->
+        <nav class="row fixed-top bg-light">
+            <div class="col-sm-0 col-md-2 col-lg-3"></div>
+            <div class="col navbar navbar-expand-md navbar-light mx-5 mx-md-0 py-0 my-0">
+                <a class="navbar-brand" href="index.html">Gone Incognita!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav position-absolute end-0 bg-light p-4 p-md-0">
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="incognita.html" class="nav-link mx-md-4 mx-lg-5">Incognita</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-            <header class="row">
-                
-            </header>
-            <main class="row">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-0 col-md-2 col-lg-3"></div>
-                        <div class="col">
-                            MAIN
-                        </div>
-                        <div class="col-sm-0 col-md-2 col-lg-3"></div>
+            </div>
+            <div class="col-sm-0 col-md-2 col-lg-3"></div>
+        </nav>
+
+        <!-- full-width image -->
+        <header class="row"></header>
+
+        <!-- main content area -->
+        <main class="row bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-0 col-md-2 col-lg-3"></div>
+                    <div class="col pt-4 py-5">
+                        <blockquote class="blockquote">
+                            <p>Marissa is a postdoctoral Environmental Fellow at Harvard's Center for the Environment, where she is working on a book of narrative nonfiction about Antarctica for the general reader. Incognita: A Portrait of Antarctica will combine historical research with a synthesis of current ecological, atmospheric, and geophysical findings to offer a journey across the continent. Marissa’s goal is to produce a rigorously-researched book that will capture the imagination of curious readers, drawing them into the threatened world of the Antarctic and its power to transform our planet.</p>
+                            <p>Marissa earned a PhD in English Literature from Harvard University in May 2019. Her academic research focuses on the visual arts and environmental thought in nineteenth-century American literature and transatlantic Romanticism. Her most recent panel talks at the ALA, ACLA, and MLA have discussed architectural tropes in Nathaniel Hawthorne, Robert Frost, and John Clare. Her essays for general audience, on these and other topics, can be found at Nautilus, Atlas Obscura, and The Paris Review Online among other places.</p>
+                            <p>She holds a BA from Yale University in Comparative Literature (with certificates in Spanish and German).</p>
+                        </blockquote>
                     </div>
+                    <div class="col-sm-0 col-md-2 col-lg-3"></div>
                 </div>
-            </main>
-        </div>
+            </div>
+        </main>
+        <footer class="row bg-light pt-2">
+            <p class="text-end text-muted small">Website by <a href="https://github.com/dedolence/">Nathaniel Hoyt</a></p>
+        </footer>
     </body>
     
+    <script>
+        let key = document.getElementById("key");
+        function displayDimensions() {
+            let w = window.innerWidth;
+            let h = window.innerHeight;
+            key.innerHTML = "W: " + w + "<br />H: " + h;
+        }
+        window.addEventListener("resize", displayDimensions);
+        displayDimensions();
+    </script>
 </html>
