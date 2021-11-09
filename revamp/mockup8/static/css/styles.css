@@ -112,14 +112,62 @@ header {
         padding: 5px;
     }
     header {
-        background-image: url("../images/weddell_large.jpg");
-        background-size: cover;
+        background-image: url("../images/weddell_medium.jpg");
+        background-position: center -100px;
     }
 }
 
-@media (min-width: 1544px) {
+@media (min-width: 1200px) {
     #key::after {
         content: "min-width: 1544px";
+        background-color: black;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        color: white;
+        padding: 5px;
+    }
+    header {
+        background-image: url("../images/weddell_large.jpg");
+        background-position: center -200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #key::after {
+        content: "min-width: 1200px";
+        background-color: black;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        color: white;
+        padding: 5px;
+    }
+    header {
+        background-image: url("../images/weddell_large.jpg");
+        background-position: center -200px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #key::after {
+        content: "min-width: 1400px";
+        background-color: black;
+        position: absolute;
+        top: 40px;
+        left: 0px;
+        color: white;
+        padding: 5px;
+    }
+    header {
+        background-image: url("../images/weddell_large.jpg");
+        background-position: center -300px;
+    }
+}
+
+@media (min-width: 1550px) {
+    #key::after {
+        content: "min-width: 1550px";
         background-color: black;
         position: absolute;
         top: 40px;
