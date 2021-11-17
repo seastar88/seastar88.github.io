@@ -1,0 +1,77 @@
+remote_theme: mmistakes/minimal-mistakes@4.21.0
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+title: Marissa Grunes
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Gone Incognita! Homepage for Marissa Grunes, scholar and writer on all things Antarctica.
+twitter_username: gone_incognita
+github_username: seastar88
+minimal_mistakes_skin: default
+search: false
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+author:
+  name   : "Incognita: A Portrait of Antarctica"
+  avatar : "/assets/img/marissa.jpg"
+  bio    : "My current book project is a work of narrative nonfiction about the Antarctic. Incognita: A Portrait of Antarctica tells the story of this awesome and fragile region through natural and human history, accounts of current scientific research, and artistic responses to the seventh continent."
+  links:
+    - label: ""
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:gone.incognita@gmail.com"
+    - label: ""
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Gone_Incognita"
+    
+
+footer:
+  links:
+    - label: ""
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:gone.incognita@gmail.com"
+    - label: ""
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Gone_Incognita"
+    
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
