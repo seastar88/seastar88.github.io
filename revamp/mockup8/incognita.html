@@ -10,6 +10,9 @@
         <title>Gone Incognita!</title>
     </head>
     <body class="container-fluid h-100" id="outerContainer">
+        
+        <!-- FOR TESTING --><div id="key"></div><!-- FOR TESTING -->
+
         <!-- navigation bar -->
         <nav class="row fixed-top bg-light">
             <div class="col-sm-0 col-md-2 col-lg-3"></div>
@@ -24,7 +27,7 @@
                             <a href="about.html" class="nav-link">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a href="incognita.html" class="nav-link mx-md-4 mx-lg-5 active">Incognita</a>
+                            <a href="incognita.html" class="nav-link mx-md-4 mx-lg-5">Incognita</a>
                         </li>
                         <li class="nav-item">
                             <a href="portfolio.html" class="nav-link">Portfolio</a>
@@ -57,4 +60,15 @@
             <p class="text-end text-muted small">Website by <a href="https://github.com/dedolence/">Nathaniel Hoyt</a></p>
         </footer>
     </body>
+    
+    <script>
+        let key = document.getElementById("key");
+        function displayDimensions() {
+            let w = window.innerWidth;
+            let h = window.innerHeight;
+            key.innerHTML = "W: " + w + "<br />H: " + h;
+        }
+        window.addEventListener("resize", displayDimensions);
+        displayDimensions();
+    </script>
 </html>
