@@ -179,6 +179,10 @@ header {
         background-image: url("../images/weddell_large.jpg");
         background-position: center -400px;
     }
+
+    .active {
+        text-decoration: underline !important;
+    }
 }
 
 @media (min-width: 1900px) {
